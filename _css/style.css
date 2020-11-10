@@ -96,6 +96,17 @@ section.contato{
   padding:30px 0;
   background: rgb(225,225,225);
 }
+section.contato input[type=text],
+section.contato input[type=email],
+section.contato textarea{
+  width: 60%;
+  resize: none;
+}
+input[type=text]:hover,
+input[type=email]:hover,
+textarea:hover{
+  border:2px solid #3FA3C5;
+}
 footer{
   padding:14px 0;
   background: #333;
